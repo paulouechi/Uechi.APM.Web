@@ -175,7 +175,7 @@ Windows version
 
 a) Download the Setup MSI package and follow the instructions below:
 
-To download click package from <a href="https://github.com/paulouechi/Uechi.APM.Services.Socket.Server.Windows/blob/master/Uechi.APM.Services.Socket.Server.Setup/Debug/Uechi.APM .Services.Socket.Server.Setup.zip" target="_blank">https://github.com/paulouechi/Uechi.APM.Services.Socket.Server.Windows/blob/master/Uechi.APM.Services.Socket.Server.Setup/Debug/Uechi.APM .Services.Socket.Server.Setup.zip</a>
+To download click package from <a href="https://github.com/paulouechi/Uechi.APM.Services.Socket.Server.Windows/blob/master/Uechi.APM.Services.Socket.Server.Setup/Debug/Uechi.APM.Services.Socket.Server.Setup.zip" target="_blank">https://github.com/paulouechi/Uechi.APM.Services.Socket.Server.Windows/blob/master/Uechi.APM.Services.Socket.Server.Setup/Debug/Uechi.APM.Services.Socket.Server.Setup.zip</a>
 
 b) Extract the ZIP aquivo for Setup.exe and the MSI.
 
