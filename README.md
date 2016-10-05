@@ -257,4 +257,6 @@ Uechi.APM.Web and Uechi.APM.Services.Socket.Server Windows and Linux versions ar
 
 <strong>information:</strong>
 
-Questions or suggestions please or make requests in the comments below or contact by email <a href="mailto:paulouechi@gmail.com">paulouechi@gmail.com</a>.
+Questions or suggestions, please make requests or to comments on my blog at <a href="http://uechi.com.br/uechi-apm-web-eng/">http://uechi.com.br/uechi-apm-web-eng/</a> address or contact by email <a href="mailto:paulouechi@gmail.com">paulouechi@gmail.com</a>.
+
+Informações em Portugues acesse <a href="http://uechi.com.br/uechi-apm-web/">http://uechi.com.br/uechi-apm-web/</a>.
