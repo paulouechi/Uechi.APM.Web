@@ -71,8 +71,8 @@ Customer Service Project Socket developed in VS.NET Framework 4.0 supports Windo
 <strong>Tested and Approved in:</strong>
 
 Linux
-CentOS x86_64 versions 6:07.
-Ubuntu x86_64 versions 24:14.
+CentOS x86_64 versions 6 and 7.
+Ubuntu x86_64 versions 12 and 14.
 
 Windows
 Windows 2003 Advanced Server
