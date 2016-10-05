@@ -85,9 +85,9 @@ Requirements:
 
 Uechi.APM.Web
 
-. JDK 8 installed
-. Glassfish or Tomcat 4+ 8+
-. Windows or Linux
+. JDK 8 installed<br>
+. Glassfish or Tomcat 4+ 8+<br>
+. Windows or Linux<br>
 
 Uechi.APM.Services.Socket.Server Linux
 
