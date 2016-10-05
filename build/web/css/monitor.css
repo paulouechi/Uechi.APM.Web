@@ -1,0 +1,319 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 13/10/2015, 17:25:31
+    Author     : paulo.uechi
+*/
+
+body {
+    background-color: #2B2B2B;
+    overflow:hidden;
+}
+#divDashboard {
+}
+
+#divLoader{
+    position: fixed; width: 26px; height: 26px; right: 0; bottom: 0; margin-bottom: 5px; margin-right: 5px; text-align: center;
+}
+
+#divCount{
+    color: #fff; padding-top: 6px;
+}
+
+
+.line {
+    display: block; 
+    height: 1px; 
+    border: 0; 
+    border-top: 1px solid #666666; 
+    margin: 1em 0; 
+    padding: 0; 
+    width: 99%;    
+}
+
+.tbl-fatura {
+    margin-left: 10px;
+    margin-top: 10px;
+    width: 98%; 
+    border-style: solid; 
+    border-width: 1px; 
+    border-color: #666666;
+}
+
+.tbl-fatura-header {
+    font-weight: bold;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+
+.tbl-fatura-header-text {
+    background-color: #444444; 
+    color: #ffffff; 
+    text-align: center;
+}
+
+.tbl-fatura-text {
+    font-weight: normal;
+    padding-top: 1px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 1px;
+}
+
+.tbl-fatura-grid-text {
+    font-weight: normal;
+    padding-top: 2px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+    border-bottom-width: 1px; 
+    border-bottom-style: solid; 
+    border-bottom-color: #666666; 
+}
+.tbl-fatura-grid-text-titulo {
+    font-size: 14pt;
+    color: #fff!important;
+}
+
+.tbl-fatura-bordar-baixa-cima {
+    border-bottom-width: 1px; 
+    border-bottom-style: solid; 
+    border-bottom-color: #666666; 
+    border-top-width: 1px; 
+    border-top-style: solid; 
+    border-top-color: #666666;
+}
+.tbl-fatura-bordar-baixa {
+    border-bottom-width: 1px; 
+    border-bottom-style: solid; 
+    border-bottom-color: #666666;
+}
+.tbl-fatura-bordar-direta {
+    border-right-width: 1px; 
+    border-right-style: solid; 
+    border-right-color: #666666;
+}
+.tbl-fatura-bordar-esquerda {
+    border-left-width: 1px; 
+    border-left-style: solid; 
+    border-left-color: #666666;
+}
+
+
+@keyframes blink_red { 
+   50% { background-color: #ff0000; } 
+}
+@keyframes blink_yellow { 
+   50% { background-color: #FFFF00; } 
+}
+@keyframes blink_blue { 
+   50% { background-color: #00BFFF; } 
+}
+@keyframes blink_green { 
+   50% { background-color: #32CD32; } 
+}
+
+.tbl-fatura-text-back-red {
+    animation: blink_red .9s step-end infinite alternate;
+}
+
+.tbl-fatura-text-back-yellow {
+    animation: blink_yellow .9s step-end infinite alternate;
+}
+
+.tbl-fatura-text-back-blue {
+    animation: blink_blue .9s step-end infinite alternate;
+}
+
+.tbl-fatura-text-back-green {
+    animation: blink_green .9s step-end infinite alternate;
+}
+
+.col-box-tot{
+    height: 150px;
+}
+
+.cssload-msg{
+    width: 100px;
+}
+
+.blink_link_red {
+    animation-duration: 1000ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* Safari and Chrome */
+    -webkit-animation-name: blink_link_red;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    /*Firefox*/
+    -moz-animation-name: blink_link_red;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;    
+}
+@keyframes blink_link_red {
+    from {
+        color: #ff0000;
+    }
+    to {
+        color: #C0C0C0;
+    }
+}
+@-webkit-keyframes blink_link_red {
+    from {
+        color:#ff0000;
+    }
+    to {
+        color:#C0C0C0;
+    }
+}
+@-moz-keyframes blink_link_red {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+    from {
+        color:#ff0000;
+    }
+    to {
+        color:#C0C0C0;
+    }
+}
+
+.blink_link_green {
+    animation-duration: 1000ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* Safari and Chrome */
+    -webkit-animation-name: blink_link_green;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    /*Firefox*/
+    -moz-animation-name: blink_link_green;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;    
+}
+@keyframes blink_link_green {
+    from {
+        color: #66ce39;
+    }
+    to {
+        color: #C0C0C0;
+    }
+}
+@-webkit-keyframes blink_link_green {
+    from {
+        color:#66ce39;
+    }
+    to {
+        color:#C0C0C0;
+    }
+}
+@-moz-keyframes blink_link_green {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+    from {
+        color:#66ce39;
+    }
+    to {
+        color:#C0C0C0;
+    }
+}
+
+.blink_link_yellow {
+    animation-duration: 1000ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* Safari and Chrome */
+    -webkit-animation-name: blink_link_yellow;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    /*Firefox*/
+    -moz-animation-name: blink_link_yellow;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;    
+}
+@keyframes blink_link_yellow {
+    from {
+        color: #FFFF00;
+    }
+    to {
+        color: #C0C0C0;
+    }
+}
+@-webkit-keyframes blink_link_yellow {
+    from {
+        color:#FFFF00;
+    }
+    to {
+        color:#C0C0C0;
+    }
+}
+@-moz-keyframes blink_link_yellow {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+    from {
+        color:#FFFF00;
+    }
+    to {
+        color:#C0C0C0;
+    }
+}
+
+.blink_link_gray {
+    animation-duration: 2000ms;
+    animation-name: blink;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    /* Safari and Chrome */
+    -webkit-animation-name: blink_link_gray;
+    -webkit-animation-duration: 1000ms;
+    -webkit-animation-timing-function: linear;
+    -webkit-animation-iteration-count: infinite;
+    /*Firefox*/
+    -moz-animation-name: blink_link_gray;
+    -moz-animation-duration: 1000ms;
+    -moz-animation-timing-function: linear;
+    -moz-animation-iteration-count: infinite;    
+}
+@keyframes blink_link_gray {
+    from {
+        color: #fff; /*#2B2B2B*/
+    }
+    to {
+        color: #C0C0C0;
+    }
+}
+@-webkit-keyframes blink_link_gray {
+    from {
+        color:#ff; /*#2B2B2B*/
+    }
+    to {
+        color:#C0C0C0;
+    }
+}
+@-moz-keyframes blink_link_gray {  
+    0% { opacity: 1.0; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1.0; }
+    from {
+        color:#ff; /*#2B2B2B*/
+    }
+    to {
+        color:#C0C0C0;
+    }
+}
