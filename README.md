@@ -63,21 +63,21 @@ Customer Service Project Socket developed in VS.NET Framework 4.0 supports Windo
 
 <strong>Supported modules:</strong>
 
-. Glassfish 4+
-. Tomcat 8+
-. JDK 1.7 +
-. Framework 4.0
+. Glassfish 4+<br>
+. Tomcat 8+<br>
+. JDK 1.7 +<br>
+. Framework 4.0<br>
 
 <strong>Tested and Approved in:</strong>
 
-Linux
-CentOS x86_64 versions 6 and 7.
-Ubuntu x86_64 versions 12 and 14.
+Linux<br>
+CentOS x86_64 versions 6 and 7.<br>
+Ubuntu x86_64 versions 12 and 14.<br>
 
-Windows
-Windows 2003 Advanced Server
-Windows Server 2008 R2
-Windows Server 2012 R2
+Windows<br>
+Windows 2003 Advanced Server<br>
+Windows Server 2008 R2<br>
+Windows Server 2012 R2<br>
 
 <strong>Installation:</strong>
 
@@ -253,9 +253,9 @@ Uechi.APM.Web and Uechi.APM.Services.Socket.Server Windows and Linux versions ar
 
 <strong>Next steps:</strong>
 
-1 - Uechi.APM.Web in ASP.NET version
-2 - Enhance details of the data on screen.
-3 - Encrypt all communication.
+1 - Uechi.APM.Web in ASP.NET version<br>
+2 - Enhance details of the data on screen.<br>
+3 - Encrypt all communication.<br>
 
 <strong>information:</strong>
 
