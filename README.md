@@ -46,7 +46,7 @@ Windows version is a Client Open Source server performance monitor for Windows, 
 
 Below is a flow chart of the general operation of the structure:
 
-<img class="alignnone wp-image-2667 size-full" src="http://uechi.com.br/wp-content/uploads/uapm020-e1475696247500.jpg" alt="uapm020" width="801" height="349" />
+<img class="alignnone wp-image-2681 size-full" src="http://uechi.com.br/wp-content/uploads/uechiapmfluxus-e1475713522221.jpg" alt="uechiapmfluxus" width="800" height="350" />
 
 <strong>Structure:</strong>
 
